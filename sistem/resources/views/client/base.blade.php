@@ -40,8 +40,6 @@
                 <div class="col-sm-3">
                     @include('client.section.sidebar')
                 </div>
-                
-
                 <div class="col-sm-9 padding-right">
                 @yield('content')
                     <!--features_items-->
