@@ -44,12 +44,13 @@
           <input type="email" class="form-control" placeholder="Email" name="email">
           <label>Password</label>
           <input type="password" class="form-control" placeholder="Password" name="password">
-          <!-- <div class="input-group mb3">
-            <select name="login_as" id="" class="form-control">
+          <div class="input-group mb-3">
+          <select name="login_as" class="form-control">
               <option value="1">Admin</option>
-              <option value="2">Pengguna</option>
-            </select>
-          </div> -->
+              <option value="0">Pembeli</option>
+              <option value="2">Penjual</option>
+           </select>
+        </div> 
 
           
           <input type="checkbox" value="remember-me"> Remember me

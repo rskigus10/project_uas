@@ -31,9 +31,6 @@
     @include('client.section.header')
     <!--/header-->
 
-    @include('client.section.carousel')
-    <!--/slider-->
-
     <section>
         <div class="container">
             <div class="row">

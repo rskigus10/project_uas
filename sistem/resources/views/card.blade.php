@@ -2,7 +2,7 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col-md-12 mt-5">
+            <div class="col-md-9 mt-5">
                 <div class="card">
                     <div class="card-header">
                         Alamat
@@ -37,7 +37,8 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
+                    </div><br>
+                    <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                 </div>
             </div>
         </div>

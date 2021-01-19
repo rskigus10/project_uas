@@ -18,10 +18,17 @@ use App\Http\Controllers\UserController;
 |
 */
 
-route::get('', [HomeController::class, 'showHome']);
+// route::get('', [HomeController::class, 'showHome']);
 route::get('client', [HomeController::class, 'showHome']);
+route::get('client/filter', [HomeController::class, 'showHome']);
+route::get('checkout', [HomeController::class, 'showCheckout']);
 route::get('template/{status}', [HomeController::class, 'showTemplate']);
 route::get('kategori', [HomeController::class, 'showKategori']);
+route::get('card', [HomeController::class, 'showCard']);
+route::get('card', [HomeController::class, 'cardPembelian']);
+
+
+
 
 route::get('setting', [SettingController::class, 'index']);
 route::post('setting', [SettingController::class, 'store']);
